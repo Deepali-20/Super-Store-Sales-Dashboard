@@ -1,71 +1,118 @@
-# Super-Store-Sales-Dashboard
-An interactive Power BI Dashboard that visualizes sales performance, profitability, and customer insights for a Super Store dataset. The dashboard enables data-driven decision-making by highlighting key sales trends, product performance, and regional profitability.
-📊 Dashboard Overview
-🔹 Key Metrics
-Total Sales: ₹1.56M
-Total Profit: ₹192.89K
-Total Quantity Sold: 25K units
-Average Discount: 0.16
-🔹 Highlights
-Top Performing Categories: Technology & Furniture
-Most Profitable Sub-Categories: Phones & Copiers
-Highest Profit Region: West (≈33% of total profit)
-Peak Sales Month: December — strong seasonal demand
-Customer Insights: Key customers such as Sean Miller and Tamara Chand contribute significant sales.
-🧠 Key Insights
-💰 Technology and Furniture categories dominate total sales.
-🏆 Phones & Copiers deliver the highest profit margins.
-🌎 West Region leads in profitability.
-📈 December shows the highest sales — ideal for promotional campaigns.
-🚚 Multiple shipping modes analyzed (First Class, Second Class, Standard, Same Day).
-👥 Segmentation across Consumer, Corporate, and Home Office customers.
-🗂️ Dashboard Components
-Section	Description
-KPI Cards	Display Total Sales, Quantity, Profit, and Average Discount
-Profit by Sub-Category (Treemap)	Visualizes profit contribution of each product sub-category
-Sales by Category (Bar Chart)	Compares overall sales between Technology, Furniture, and Office Supplies
-Sales by Month (Line Chart)	Tracks monthly sales trends to identify seasonal patterns
-Profit by Region (Pie Chart)	Shows profit percentage by region (East, West, Central, South)
-Customer Performance Table	Lists top customers and their total sales
-Map Visualization	Displays city-wise sales distribution across regions
-Filters	Allow analysis by Ship Mode, Segment, and Date Range
-⚙️ Tools & Technologies
-Power BI Desktop / Power BI Service
-Data Source: Super Store Sales Dataset (CSV or Excel)
-Techniques Used:
-Data Cleaning & Transformation (Power Query)
-DAX Measures for KPIs (Total Sales, Profit, Discount, Quantity)
-Hierarchical and cross-filtered visualizations
-Dynamic date filters and slicers
-🧩 DAX Measures Used
+# 📊 Super Store Sales Dashboard
+
+An interactive **Power BI Dashboard** showcasing sales, profit, customer, and regional insights from the *Super Store Sales* dataset.
+The project demonstrates advanced data visualization, DAX calculations, and business intelligence storytelling.
+
+---
+
+## 🧾 Dashboard Overview
+
+### 🔹 **Key Metrics**
+
+* **Total Sales:** ₹1.56M
+* **Total Profit:** ₹192.89K
+* **Total Quantity Sold:** 25K units
+* **Average Discount:** 0.16
+
+### 🔹 **Highlights**
+
+* **Top Performing Categories:** Technology & Furniture
+* **Most Profitable Sub-Categories:** Phones & Copiers
+* **Highest Profit Region:** West (≈33% of total profit)
+* **Peak Sales Month:** December — strong seasonal demand
+* **Customer Insights:** Top customers like *Sean Miller* and *Tamara Chand* drive significant sales.
+
+---
+
+## 🧠 Key Insights
+
+* 💰 **Technology and Furniture** dominate total sales.
+* 🏆 **Phones & Copiers** yield the highest profit margins.
+* 🌎 **West Region** leads in profitability.
+* 📈 **December** marks peak sales — leverage for promotions.
+* 🚚 Multiple shipping modes analyzed (*First Class, Second Class, Standard, Same Day*).
+* 👥 Segmented by **Consumer**, **Corporate**, and **Home Office** customers.
+
+---
+
+## 🗂️ Dashboard Components
+
+| Section                              | Description                                                  |
+| ------------------------------------ | ------------------------------------------------------------ |
+| **KPI Cards**                        | Displays Total Sales, Quantity, Profit, and Average Discount |
+| **Profit by Sub-Category (Treemap)** | Visualizes profit contribution across sub-categories         |
+| **Sales by Category (Bar Chart)**    | Compares Technology, Furniture, and Office Supplies          |
+| **Sales by Month (Line Chart)**      | Shows seasonal sales trends                                  |
+| **Profit by Region (Pie Chart)**     | Breakdown by East, West, Central, and South                  |
+| **Customer Table**                   | Lists top customers and total sales                          |
+| **Map Visualization**                | Displays city-wise regional sales                            |
+| **Filters**                          | Dynamic filtering by Ship Mode, Segment, and Date Range      |
+
+---
+
+## ⚙️ Tools & Technologies
+
+* **Power BI Desktop / Power BI Service**
+* **Data Source:** Super Store Sales Dataset (CSV or Excel)
+* **Techniques Used:**
+
+  * Data Cleaning & Transformation using *Power Query*
+  * Custom *DAX Measures* for KPIs
+  * Interactive slicers and cross-filtered visuals
+  * Dynamic time intelligence for monthly analysis
+
+---
+
+## 🧩 DAX Measures Used
+
+```DAX
 Total Sales = SUM(Sales[Sales])
 Total Profit = SUM(Sales[Profit])
 Total Quantity = SUM(Sales[Quantity])
 Average Discount = AVERAGE(Sales[Discount])
+```
 
-📈 Insights Summary
-Metric	Observation
-Sales Trend	Rises sharply in Q4 (November–December)
-Regional Profit	West Region contributes ≈33%
-Category Comparison	Technology leads with ~₹0.56M sales
-Customer Distribution	Concentrated in high-spending cities
-Discount Analysis	Low discounts correlate with higher profit
-📂 Repository Structure
+---
+
+## 📈 Insights Summary
+
+| Metric                    | Observation                              |
+| ------------------------- | ---------------------------------------- |
+| **Sales Trend**           | Rises sharply in Q4 (Nov–Dec)            |
+| **Regional Profit**       | West contributes ≈33% of total profit    |
+| **Category Comparison**   | Technology leads with ~₹0.56M sales      |
+| **Customer Distribution** | Concentrated in key high-spending cities |
+| **Discount Analysis**     | Lower discounts yield higher profits     |
+
+---
+
+## 📂 Repository Structure
+
+```
 📦 Super-Store-Sales-Dashboard
  ┣ 📊 SuperStore_Dashboard.pbix     # Power BI file
- ┣ 📄 Superstore_Sales_Data.xlsx     # Dataset (if applicable)
- ┣ 🖼️ Screenshot.png                 # Dashboard preview image
- ┗ 📘 README.md                      # Project documentation
+ ┣ 📄 Superstore_Sales_Data.xlsx     # Dataset
+ ┣ 🖼️ Screenshot.png                 # Dashboard preview
+ ┗ 📘 README.md                      # Documentation
+```
 
-🚀 How to Use
-Clone or download this repository.
-Open the .pbix file in Power BI Desktop.
-Load or connect your dataset if required.
-Explore filters, visual interactions, and insights.
-🧾 Author
+---
 
+## 🚀 How to Use
 
+1. Clone or download this repository.
+2. Open the `.pbix` file in **Power BI Desktop**.
+3. Load the dataset if not connected automatically.
+4. Explore visuals, slicers, and regional filters interactively.
 
-Created by: [Deepali rai]
-Tool: Power BI
-Purpose: Data Analysis & Visualization Portfolio Project
+---
+
+## 🧾 Author
+
+**Created by:** [Deepali rai]
+**Tool:** Power BI
+**Purpose:** Data Analysis & Visualization Portfolio Project
+
+---
+
+⭐ If you find this project helpful, consider giving it a **star** and sharing feedback!
