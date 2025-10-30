@@ -5,15 +5,6 @@ The project demonstrates advanced data visualization, DAX calculations, and busi
 
 ---
 
-## 🧾 Dashboard preview
- Power BI Dashboard
-
-
-
-
-File: powerbi_dashboard/SuperStore_Sales_Dashboard.pbix
-Preview:![Uploading Screenshot 2025-10-29 104930.png…
-
 
 ✨ Dashboard Insights
 
@@ -72,6 +63,12 @@ Preview:![Uploading Screenshot 2025-10-29 104930.png…
   * Dynamic time intelligence for monthly analysis
 
 ---
+🖼️ Dashboard Preview
+Below is a visual representation of the Power BI dashboard included in this repository:
+
+![Uploading Screenshot 2025-10-29 104930.png…]()
+
+
 
 ## 🧩 DAX Measures Used
 
