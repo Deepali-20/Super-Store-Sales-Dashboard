@@ -8,11 +8,11 @@ The project demonstrates advanced data visualization, DAX calculations, and busi
 ## 🧾 Dashboard preview
  Power BI Dashboard
 
-![Uploading Screenshot 2025-10-29 104930.png…]()
+
 
 
 File: powerbi_dashboard/SuperStore_Sales_Dashboard.pbix
-Preview:
+Preview:![Uploading Screenshot 2025-10-29 104930.png…
 
 
 ✨ Dashboard Insights
